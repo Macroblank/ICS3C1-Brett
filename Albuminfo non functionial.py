@@ -24,7 +24,7 @@ while notDone:
     print ("Are you done?")
  
     answer = input("Enter yes or no: ")
-
+#i put everything in this one while loop so when i went to use my elif statemnt to prevent people from trying to break it it just always looped back no matter what
     if answer == "yes":
         
         notDone = False
